@@ -35,7 +35,6 @@ OSM Germany ermöglicht den Aufbau eines lokalen Tile-Servers inklusive:
 /switch2osm/settings
 /switch2osm/src
 /opt/osm2pgsql
-/compile_osm2pgsql
 ```
 
 Diese Ordner müssen existieren und die entsprechenden Berechtigungen haben, z.B. Eigentümer `_renderd`.
@@ -202,6 +201,33 @@ Skript zum Kompilieren und Installieren von osm2pgsql in `/opt/osm2pgsql`.
 * Stellen Sie sicher, dass alle notwendigen Ordner existieren und die Berechtigungen korrekt gesetzt sind.
 * Renderd muss nach Änderungen der Tiles oder Konfiguration neu gestartet werden.
 * `osm2pgsql` muss kompiliert und unter `/opt/osm2pgsql` installiert sein, bevor der Datenimport erfolgt.
+
+---
+
+## Setup / Rechenzeiten 
+
+| Hardware | CPU                     | RAM   | SSD  | Virtualisierung             |
+| -------- | ----------------------- | ----- | ---- | --------------------------- |
+| Setup-PC | Intel i7-8700K, 6 Cores | 61 GB | 1 TB | VMware Workstation Pro 25H2 |
+
+| Zoomstufe | geschätzte Renderzeit |
+| --------- | --------------------- |
+| 1 - 12    | 64 Minuten            |
+| 13 - 15   | 115 Minuten           |
+| 16        | 130 Minuten           |
+| 17        | 356 Minuten           |
+
+> Hinweis: Zeiten dienen als Richtwert für die angegebene Hardware und 6 Threads.
+
+---
+
+## Screenshots von Hamburg - div. Zoomstufen
+
+![map\_01](screenshots/map_01.png)
+![map\_02](screenshots/map_02.png)
+![map\_03](screenshots/map_03.png)
+![map\_04](screenshots/map_04.png)
+![map\_05](screenshots/map_05.png)
 
 ---
 
