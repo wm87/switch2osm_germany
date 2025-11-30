@@ -1,0 +1,57 @@
+{
+  "productlist": "OSM Produkte",
+  "version": 1.0,
+  "releaseDate": "2025-12-01",
+  "geoproduct": [
+    {
+      "name": "Karte Germany",
+      "Herausgeber": {
+        "institution": "OSM",
+        "veroeffentlicht": "2025-07-17"
+      },
+      "Ansprechpartner": {
+        "name": "Max Mustermann",
+        "adresse": "Max Mustermann Str. 1",
+        "location": "012345 Muserhausen",
+        "mobil": "877-123-1234"
+      },
+      "Mail": [
+        "max.mustermann.de",
+        "max.mustermann@osm.de"
+      ],
+      "Zugriff": {
+        "user": "postgres",
+        "version": "18",
+        "port": "5432",
+        "hostname": "127.0.0.1",
+        "tablespace": "tbl_bigdata",
+        "productname": "osm_germany"
+      }
+    },
+    {
+      "name": "Karte Italy",
+      "Herausgeber": {
+        "institution": "OSM",
+        "veroeffentlicht": "2025-07-17"
+      },
+      "Ansprechpartner": {
+        "name": "Max Mustermann",
+        "adresse": "Max Mustermann Str. 1",
+        "location": "012345 Muserhausen",
+        "mobil": "877-123-1234"
+      },
+      "Mail": [
+        "max.mustermann.de",
+        "max.mustermann@osm.de"
+      ],
+      "Zugriff": {
+        "user": "postgres",
+        "version": "18",
+        "port": "5432",
+        "hostname": "127.0.0.1",
+        "tablespace": "tbl_bigdata",
+        "productname": "osm_italy"
+      }
+    }
+  ]
+}
